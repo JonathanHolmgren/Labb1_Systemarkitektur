@@ -9,6 +9,6 @@ public class DefaultDiscount implements Discount{
 
     @Override
     public String getDescription(Product product, OrderInformation orderInformation) {
-        return null;
+        return "";
     }
 }
