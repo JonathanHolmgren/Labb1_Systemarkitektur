@@ -39,7 +39,8 @@ public class App {
         System.out.println("Product name: " + milk.getName());
         System.out.println("Product Price: " + milk.getPrice() + "$");
         System.out.println("Product Quantity: " +milk.getQuantity());
-
+        System.out.println("-----------");
+        
         System.out.println("Discount: " + String.format("%.2f",milkDiscount.apply(milk,orderInformation) )+ "$");
         System.out.println(milkDiscount.getDescription(milk,orderInformation));
         System.out.println("-----------");
